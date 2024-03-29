@@ -1,0 +1,17 @@
+WeChat: cstutorcs
+QQ: 749389476
+Email: tutorcs@163.com
+[info] welcome to sbt 1.9.2 (Debian Java 17.0.9-ea)
+[info] loading settings for project tip-build from plugins.sbt ...
+[info] loading project definition from /mnt/d/uni/csse4630/tip/project
+[info] loading settings for project tip from build.sbt ...
+[info] set current project to tip (in build file:/mnt/d/uni/csse4630/tip/)
+[info] running tip.Tip -andersen circular/diff.tip
+[1m[34m[info] [0mProcessing diff.tip
+[1m[34m[info] [0mPoints-to:
+b[2:12] -> {y[2:21]}
+x[2:18] -> {c[2:15]}
+a[2:9] -> {y[2:21],x[2:18]}
+c[2:15] -> {a[2:9]}
+y[2:21] -> {c[2:15]}
+[success] Total time: 7 s, completed Oct 4, 2023, 9:12:14 PM

@@ -1,0 +1,10 @@
+main() {
+  var i, t, x, y, z;
+  i = null;
+  x = alloc {f: i}; // alloc-1
+  y = alloc {h: x}; // alloc-2
+  t = *y;
+  z = t.h;
+  return z;
+}
+

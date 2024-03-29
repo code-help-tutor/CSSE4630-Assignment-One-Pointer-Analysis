@@ -1,0 +1,10 @@
+// a very simple example using only address-of.
+main() {
+    var p, q, x, y, z;
+    x = 3;
+    y = 4;
+    p = &x;
+    q = &y;
+    z = &p;
+    return x;
+}

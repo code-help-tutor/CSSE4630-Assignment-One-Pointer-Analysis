@@ -1,0 +1,13 @@
+// first example from Andersen Section 11.2 of the textbook
+main() {
+    var p, q, x, y, z;
+    p = alloc null;
+    x = y;
+    x = z;
+    *p = z;
+    p = q;
+    q = &y;
+    x = *p;
+    p = &z;
+    return p;
+}
